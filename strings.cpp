@@ -8,7 +8,9 @@ int main(){
 
     string firstName = "John";
     string lastName = "Doe";
-    string fullName = firstName + " " + lastName; // example of concatenation in strings
+    string fullName = firstName + " " + lastName; // example of concatenation in strings using "+" operator.
+
+    string fullName2 = firstName.append(lastName); // example of concatenation in strings using the append function
 
     cout << fullName;
     return 0;
